@@ -1,5 +1,7 @@
 body {
-  background-color: #b6bcc4;
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+;
   font-family: 'Quicksand', sans-serif;
   margin-top: 10rem;
 }
