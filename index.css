@@ -1,7 +1,5 @@
 body {
-  background-color: #FFDEE9;
-  background-image: linear-gradient(0deg, #FFDEE9 0%, #849e9e 100%);
-  background-repeat: no-repeat;
+  background-color: #fff;
   font-family: 'Quicksand', sans-serif;
   margin-top: 10rem;
 }
@@ -11,30 +9,33 @@ a {
 }
 
 a:hover {
-  color: #35ff82;
+  color: #FFDEE9;
   text-decoration: none;
 }
 
 h1 {
-  padding-bottom: 10%;
+  color: #352222;
+  padding-bottom: 2%;
   font-size: 2.4rem;
 }
 
-#title {
-  color: #f7f4f4;
-  margin: 8% 0 8% 2%;
-  padding-right: 65%;
+h5 {
+  text-decoration: underline;
+}
+
+strong {
+  color: black;
 }
 
 .bg-custom {
-  background-color: #2c2e31;
-  color: #d6d6d6;
+  background-color: hsla(0,0%,100%,.95);
+  border-bottom: .05rem solid #FFDEE9;
   max-height: 4.2rem;
   padding: 2rem 2.4rem 2rem 2.4rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #b6c5d3;
+  color: #2c2e31;
   text-transform: uppercase;
   font-size: 1.1rem;
   margin-right: .7rem;
@@ -46,9 +47,8 @@ h1 {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: white;
-    text-decoration: underline;
-    opacity: 1;
+  color: #DABDC7;
+  opacity: 1;
 }
 
 .navbar-collapse {
@@ -64,7 +64,48 @@ h1 {
   padding-left: 14.8%;
 }
 
-.jumbotron {
-  margin-top: 2rem;
-  background-color: transparent;
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  // background: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.container {
+  padding: 5rem;
+  float: left;
+}
+
+.container li {
+  padding: .6rem;
+}
+
+.container-deck {
+  padding: 5rem;
+  margin-top: -1rem;
+  float: left;
+}
+
+.card-img-top {
+  padding: 1.2rem;
+}
+
+.card-header {
+  text-align: center;
+  background-color: #2c2e31;
+  color: #FFDEE9;
+}
+
+#proficiencies {
+  text-align: center;
+}
+
+.atlassian {
+  padding: 4.2rem 2.4rem 4.2rem 2.4rem;
+}
+
+.list-group-item {
+  word-spacing: .6rem;
+  text-align: center;
 }
