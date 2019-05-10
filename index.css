@@ -14,12 +14,13 @@ a:hover {
 }
 
 h1 {
-  color: #352222;
+  color: #2c2e31;
   padding-bottom: 2%;
   font-size: 2.4rem;
 }
 
 h5 {
+  color: #2c2e31;
   text-decoration: underline;
 }
 
@@ -68,21 +69,21 @@ strong {
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
-  // background: rgba(0, 0, 0, 0.1);
   border: none;
 }
 
-.container {
+.container-list {
   padding: 5rem;
   float: left;
 }
 
-.container li {
+.container-list li {
+  color: #2c2e31;
   padding: .6rem;
 }
 
 .container-deck {
-  padding: 5rem;
+  padding: 0 5rem 0 5rem;
   margin-top: -1rem;
   float: left;
 }
@@ -108,4 +109,44 @@ strong {
 .list-group-item {
   word-spacing: .6rem;
   text-align: center;
+}
+
+.col {
+  background: #2c2e31;
+  color: #d6d6d6;
+  margin: 5rem -5rem 0 -5rem;
+  border-bottom: .1rem solid #adadad;
+}
+
+.col ul {
+  padding-bottom: 2.5rem;
+}
+
+.col li {
+  color: #cecece;
+  padding: .6rem;
+  margin-left: 5rem;
+}
+
+.col h1 {
+  text-align: center;
+  color: #f7f4f4;
+  padding-top: 2.5rem;
+}
+
+.footer {
+  text-align: left;
+  padding: 2rem;
+}
+
+.footer a {
+  color: #2c2e31;
+}
+
+i {
+  display:inline-block;
+  float:right;
+  position: relative;
+  word-spacing: .9rem;
+  height: 2px;
 }
